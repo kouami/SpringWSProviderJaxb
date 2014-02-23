@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerResponse targetNamespace="http://www.customer.com/service">
+    <firstName>Efoe</firstName>
+    <lastName>Akolly</lastName>
+    <ssn>111111111</ssn>
+    <address>
+        <street>193 rd Street West</street>
+        <city>Farmington</city>
+        <state>MN</state>
+    </address>
+</CustomerResponse>

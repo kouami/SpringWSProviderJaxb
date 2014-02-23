@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerRequest targetNamespace="http://www.customer.com/service">
+    <ssn>111111111</ssn>
+</CustomerRequest>

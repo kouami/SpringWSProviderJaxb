@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.customer.com/service" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CustomerRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="ssn"/>
+      </xs:sequence>
+      <xs:attribute type="xs:anyURI" name="targetNamespace"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CustomerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="firstName"/>
+        <xs:element type="xs:string" name="lastName"/>
+        <xs:element type="xs:string" name="ssn"/>
+        <xs:element name="address">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="street"/>
+              <xs:element type="xs:string" name="city"/>
+              <xs:element type="xs:string" name="state"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:anyURI" name="targetNamespace"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
