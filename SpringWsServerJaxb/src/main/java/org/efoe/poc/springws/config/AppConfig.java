@@ -34,7 +34,7 @@ public class AppConfig {
 
     @Bean
     public Wsdl11Definition customerServices() {
-        //http://localhost:9080/csjb/services/customerServices.wsdl
+        //http://localhost:8080/swsj/services/customerServices.wsdl
         DefaultWsdl11Definition definition = new DefaultWsdl11Definition();
         definition.setRequestSuffix("Request");
         definition.setResponseSuffix("Response");
