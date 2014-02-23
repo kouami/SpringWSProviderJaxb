@@ -19,7 +19,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  */
 @EnableWebMvc
 @Configuration
-@ComponentScan(basePackages = "org.efoe.poc")
+@ComponentScan(basePackages = "org.efoe")
 public class WebMvcConfig extends WebMvcConfigurerAdapter {
     
     @Bean
