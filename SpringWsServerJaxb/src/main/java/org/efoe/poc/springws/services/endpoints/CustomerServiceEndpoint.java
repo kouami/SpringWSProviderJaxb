@@ -31,6 +31,7 @@ public class CustomerServiceEndpoint {
     @PayloadRoot(localPart=LOCAL_PART, namespace = NAMESPACE_URI)
     @ResponsePayload
     public CustomerResponse getCustomer(@RequestPayload CustomerRequest request) {
+        System.out.println("ENDPOINT:::::::::::::::::::::");
         return service.getCustomer(request.getSsn());
     }
 }
